@@ -1,58 +1,36 @@
-/* Jednostki miary*/
-html{
-    font-size:20px;
-}
-#container {
-font-size: 35px;    
+/* Kolory*/
+
+body{
+    background-color: aquamarine;
 }
 
-#container > div {
-    background-color: rgba(0, 255,255, 0.6);
-    margin-bottom: 15px;
-    height: 35px;
+div{
+    margin-bottom: 5px;
 }
 
-#pixele {
-    width: 400px;
+#kolory-predefiniowane{
+    width: 200px;
+    height: 100px;
+    background-color: red;
 }
-#em {
-    width: 20em;
+#kolory-heksadecymalne{
+    width: 200px;
+    height: 100px;
+    background-color: #ff7755; 
 }
-#ex {
-    width: 20ex;
+#kolory-heksadecymalne-zapis-skrocony{
+    width: 200px;
+    height: 100px;
+    background-color: #f75; 
 }
-
-#rem {
-    width: 20rem;
-
-}
-#procenty {
-    width: 50%;
-
-}
-
-#vw {
-    width: 60vw;
-
-}
-#vh {
-    width: 60vh;
-
-}
-#vmin {
-    width: 60vmin;
-
-}
-#vmax {
-    width: 60vmax;
-
+#kolory-funkcja-rbg{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255,119,85);  
 }
 
-
-
-
-
-
-
-
-
+#kolory-funkcja-rbga{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255,119,85, 0.5);  
+}
