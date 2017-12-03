@@ -3,3 +3,43 @@ body {
    background-color: pink;
 }
 
+/*pozycja relatywna*/
+#green {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left:20px;
+    background-color: green;
+}
+/*pozycja relatywna, wtedy wpisujemy left, top itp ile mamy odsunąć od kontera*/
+/*pozycja absolutna- wskakuje na początek kontera, pozycjonuje sie względem rodzica swojego*/
+
+#red {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: red;
+}
+
+#blue {
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    
+}
+/*pozycja fixed*/
+#zafixowany {
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    }
+
+
+
+
