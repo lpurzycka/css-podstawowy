@@ -1,0 +1,43 @@
+/* Selektor znacznika*/
+p {
+    color: gray;
+}
+
+
+#paragraf {
+    color: pink;
+}
+
+
+a, span, div {
+    color: blue;
+}
+
+li > a {
+    background-color: yellow;
+}
+
+/*
+li  a {
+    background-color: yellow;
+}
+*/
+/*bezpośrednio sąsiadujące do h3 czyli tylko pierwsze h2;;
+
+h2 ~ h3 wtedy wszystkie h3 zaznaczy*/
+h2 + h3 {
+    color: green;
+}
+
+/*wykluczenie */
+ul > li:not(.last){
+color: violet;
+}
+
+
+/*zaznaczy nam tylko druga linie, selektor kolejnego elementu potomnego*/
+
+ol > li:nth-child(2) {
+    background-color: orange;
+}
+
