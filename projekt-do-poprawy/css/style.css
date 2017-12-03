@@ -70,7 +70,7 @@ section#about {
     color:black;
     background-color: white;
     margin: auto 0;
-    padding: 50px;
+    padding: 25px;
    
     }
 
@@ -78,6 +78,7 @@ section#about {
 footer {
    color:white;
    background-color:black;
+    padding: 25px;
 }
 
 footer#contact>a {
