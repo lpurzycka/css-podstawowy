@@ -1,0 +1,10 @@
+/* Jednostki miary*/
+
+#container {
+font-size: 30px;    
+}
+
+#container >div {
+    background-color: rbga (0, 255,255, 0.6);
+    margin-bottom: 15px;
+}
